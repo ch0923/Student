@@ -30,4 +30,13 @@ public class h {
     public void setTime(Date time) {
         this.time = time;
     }
+
+    @Override
+    public String toString() {
+        return "h{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", time=" + time +
+                '}';
+    }
 }
